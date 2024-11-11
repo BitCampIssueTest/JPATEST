@@ -25,25 +25,25 @@ public class EntityTest04 {
 	private Date utilTime;
 
 	@Temporal(TemporalType.DATE) // DB타입이 date
-	private Date utilDate;
+	private Date utilDadfspajflkte;
 
 	@Temporal(TemporalType.TIMESTAMP) // DB타입이 datetime
-	private Date utilTimeStamp;
+	private Date utilTisdfkjsfalasdlfkjjtamp;
 
 	private Date utilPlainDate; // DB타입이 datetime
-	private java.sql.Date sqlPlainDate; // DB타입이 date
+	private java.sql.Date sqafsiufsoiudfsiolPlainDate; // DB타입이 date
 
 	@Column(columnDefinition = "TIME")
-	private LocalTime localTime1; // DB타입이 TIME 객체로 들어옴
+	private LocalTime locadsafjasldfkjllTime1; // DB타입이 TIME 객체로 들어옴
 
 	// @Column이 없는 경우
-	private LocalTime localTime2; // DB타입이 time(6)
-
+	private LocalTime locafkasdofjoqjlTime2; // DB타입이 time(6)
+ 
 	@Column(columnDefinition = "DATE")
-	private LocalDate localDate1; // DB타입이 DATE 객체로 들어옴
+	private LocalDate losdfiajdfijcalDate1; // DB타입이 DATE 객체로 들어옴
 
 	// @Column이 없는 경우
-	private LocalDate localDate2; // DB타입이 date(6)
+	private LocalDate locdfsjafkljalDate2; // DB타입이 date(6)
 
 	@Column(columnDefinition = "TIMESTAMP")
 	private LocalDateTime localDateTime1; // DB타입이 TIMESTAMP

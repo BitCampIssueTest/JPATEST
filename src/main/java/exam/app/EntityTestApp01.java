@@ -35,8 +35,7 @@ public class EntityTestApp01 {
 			entityTest01.setBirthday(LocalDateTime.now());
 
 			manager.persist(entityTest01);
-			asdasdasdasdas
-					5-refactor-login
+	
 		}
 
 		manager.getTransaction().commit();
