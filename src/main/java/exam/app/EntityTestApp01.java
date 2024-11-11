@@ -35,7 +35,7 @@ public class EntityTestApp01 {
 			entityTest01.setBirthday(LocalDateTime.now());
 
 			manager.persist(entityTest01);
-			
+			asdasdasdasdas
 		}
 
 		manager.getTransaction().commit();
