@@ -40,6 +40,7 @@ public class EntityTestApp03 {
 		
 		manager.getTransaction().commit();
 		aksdlklajshdljfhlakjhdfkljhl
+		안녕하세요
 		manager.close();
 		factory.close();
 		
