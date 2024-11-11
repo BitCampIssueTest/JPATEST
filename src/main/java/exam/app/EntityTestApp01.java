@@ -36,6 +36,7 @@ public class EntityTestApp01 {
 
 			manager.persist(entityTest01);
 			asdasdasdasdas
+					5-refactor-login
 		}
 
 		manager.getTransaction().commit();
