@@ -39,7 +39,7 @@ public class EntityTestApp03 {
 		list.stream().forEach(e -> System.out.println(e));
 		
 		manager.getTransaction().commit();
-		
+		aksdlklajshdljfhlakjhdfkljhl
 		manager.close();
 		factory.close();
 		
