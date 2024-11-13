@@ -17,10 +17,10 @@ public class EntityTestApp03 {
 		manager.getTransaction().begin();
 		
 		Person person1 = new Person();
-		person1.setName("홍길동ASKFJHAKSFJLAasdfSFH");
-		person1.setAge(2asdfadsffads5);
+		person1.setName("홍길동");
+		person1.setAge(25);
 		
-		Person person2 = new Persosafsafasfn();
+		Person person2 = new Person();
 		person2.setName("코난");
 		person2.setAge(28);
 		
@@ -39,7 +39,6 @@ public class EntityTestApp03 {
 		list.stream().forEach(e -> System.out.println(e));
 		
 		manager.getTransaction().commit();
-
 		manager.close();
 		factory.close();
 		
